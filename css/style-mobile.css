@@ -1,0 +1,119 @@
+@media (max-width: 1200px){
+	.busca,
+	.question,
+	.querovender,
+	.textoentrar, 
+	.menu{
+		display: none;
+	}
+	header{
+		height:100px; 
+	}
+	.titulo{
+		font-size: 22px;
+	}
+	.marcas{
+		justify-content: center;
+	}
+	.marca{
+		width: 140px;
+		height: 100px;
+		margin-left: 10px;
+		margin-right: 0px;
+		margin-bottom: 10px;
+	}
+	.imgmarca{
+		width: auto;
+	}
+	.marca i{
+		font-size: 10px;
+		margin-top: 0px;
+	}
+	.item{
+		height: 30px;
+	}
+	.item i{
+		width: 30px;
+    	height: 30px;
+    	font-size: 12px;
+	}
+	.textoitem{
+		font-size: 14px;
+		margin-right: 10px;
+	}
+	.vejamais{
+		display: none;
+	}
+	.titulomobi{
+		display: block;
+	}
+	.promos{
+		justify-content: center;
+	}
+	.promotexto{
+		display: none;
+	}
+	.containeritens{
+		flex-direction: column;
+    	justify-content: center;
+    	flex-wrap: nowrap;
+	}
+	.enjuappimg{
+		display: none;
+	}
+	.enjuapp{
+		flex:none;
+		align-items: center;
+	}
+	.enjuapptexto{
+		font-size: 36px;
+	}
+	.enjuappsub{
+		font-size: 12px;
+	}
+	.store{
+		margin-left: 0px;
+	}
+	.col{
+		display: none;
+	}
+	.colmobile{
+		display: block;
+		display: flex;
+    	justify-content: center;
+	}
+	.col img{
+		margin-left: 0px;
+	}
+	.buscatopo i{
+		left: 0;
+	}
+	#search{
+		left: 48px;
+	}
+	#bars{
+		display: flex;
+	    align-items: center;
+	    position: relative;
+	    left: 24px;
+	    color: #e67878;
+	}
+	.menumobile{
+		display: flex;
+		justify-content: center;
+    	width: 100%;
+    	height: auto;
+    	position: absolute;
+    	background-color: #e67878;
+    	top: 100px;
+	}
+	.menumobile ul{
+		list-style: none;
+		display: none;
+	}
+	.menumobile a{
+		font-size: 24px;
+		color: #fff;
+		line-height: 52px;
+	}
+}
